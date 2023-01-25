@@ -37,6 +37,10 @@ body {
     grid-template-columns: 48px 1fr;
 }
 
+.sidebar > div:hover {
+    background-color: aliceblue;
+}
+
 .sidebar > div > img{
     justify-self: center;
 }
