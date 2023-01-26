@@ -10,133 +10,191 @@
 </head>
 <body>
     <div class="sidebar">
-        <div>
+        <div class="icon-and-label">
             <img src="./images/view-dashboard.png" alt="dashboard">
-            <p>Dashboard</p>
+            <p class="label">Dashboard</p>
         </div>
-        <div>
-            <img src="./images/home.png" alt="home">
-            <p class="icon-label">Home</p>
+        <div class="sub-links">
+            <div class="icon-and-label">
+                <img src="./images/home.png" alt="home">
+                <p class="label">Home</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/card-account-details.png" alt="profile">
+                <div class="label">Profile</div>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/message-reply.png" alt="messages">
+                <p class="label">Messages</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/clock-time-three.png" alt="history">
+                <p class="label">History</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/note-multiple.png" alt="tasks">
+                <p class="label">Tasks</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/account-group.png" alt="communities">
+                <p class="label">Communities</p>
+            </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div class="icon-and-label">
+                <img src="./images/cog.png" alt="settings">
+                <p class="label">Settings</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/help-box-outline.png" alt="support">
+                <p class="label">Support</p>
+            </div>
+            <div class="icon-and-label">
+                <img src="./images/shield-check.png" alt="privacy">
+                <p class="label">Privacy</p>
+            </div>
         </div>
-        <div>
-            <img src="./images/card-account-details.png" alt="profile">
-            <div class="icon-label">Profile</div>
-        </div>
-        <div>
-            <img src="./images/message-reply.png" alt="messages">
-            <p class="icon-label">Messages</p>
-        </div>
-        <div>
-            <img src="./images/clock-time-three.png" alt="history">
-            <p class="icon-label">History</p>
-        </div>
-        <div>
-            <img src="./images/note-multiple.png" alt="tasks">
-            <p class="icon-label">Tasks</p>
-        </div>
-        <div>
-            <img src="./images/account-group.png" alt="communities">
-            <p class="icon-label">Communities</p>
-        </div>
-        <div></div>
-        <div></div>
-        <div>
-            <img src="./images/cog.png" alt="settings">
-            <p class="icon-label">Settings</p>
-        </div>
-        <div>
-            <img src="./images/help-box-outline.png" alt="support">
-            <p class="icon-label">Support</p>
-        </div>
-        <div>
-            <img src="./images/shield-check.png" alt="privacy">
-            <p class="icon-label">Privacy</p>
-        </div>
-        </ul>
     </div>
     <div class="header">
         <div class="header-top">
-            <div class="search-icon">SEARCH-ICON</div>
-            <div class="search-bar">Search bar</div>
-            <div class="notification-icon">Bell</div>
-            <div class="icon-wrapper">ICON</div>
-            <div class="username">Morgan Oakley</div>
+            <div class="search-icon">
+                <img src="./images/magnify-24.png" alt="search">
+            </div>
+            <input id="search-bar" name="first-name" type="text">
+            <div class="notification-icon">
+                <img src="./images/bell-ring-outline.png" alt="notifications">
+            </div>
+
+            <!-- <div class="icon-and-label">
+                <img src="./images/icons8-christmas-penguin-48.png" alt="morgan">
+                <p class="label">Morgan Oakley</p>
+            </div> -->
+            <div class="user-wrapper">
+                <div class="user-icon">
+                    <img src="./images/icons8-christmas-penguin-48.png" alt="morgan">
+                </div>
+                <div class="username">Morgan Oakley</div>
+            </div>
         </div>
         <div class="header-bottom">
-            <div class="icon-wrapper">ICON</div>
-            <div class="greeting">
-                <p>Hi there,</p>
-                <p>Morgan Oakley (@morgan)</p>
+            <div class="user-wrapper">
+                <div class="user-icon">
+                    <img src="./images/icons8-christmas-penguin-48.png" alt="morgan">
+                </div>
+                <div class="greeting">
+                    <p>Hi there,</p>
+                    <p>Morgan Oakley (@morgan)</p>
+                </div>
             </div>
+            <div>&nbsp;</div>
             <button>New</button>
             <button>Upload</button>
             <button>Share</button>
         </div>
     </div>
     <div class="main">
-        <div class="cards-container">
+        <div class="projects-container">
             <h2>Your Projects</h2>
-            <div class="card">
-                <h3>Super Cool Project</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Super Cool Project</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h3>Less Cool Project</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+                <div class="card">
+                    <h3>Less Cool Project</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h3>Impossible App</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+                <div class="card">
+                    <h3>Impossible App</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h3>Easy Peasy App</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+                <div class="card">
+                    <h3>Easy Peasy App</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h3>Ad Blocker</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+                <div class="card">
+                    <h3>Ad Blocker</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h3>Money Maker</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
-                <div class="card-footer">
-                    <div class="card-icon">&nbsp</div>
-                    <div class="card-icon">star</div>
-                    <div class="card-icon">eye</div>
-                    <div class="card-icon">share</div>
+                <div class="card">
+                    <h3>Money Maker</h3>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictundin nibh erat, id facilisis felis accusman nec.</p>
+                    <div class="card-footer">
+                        <div class="card-icon">&nbsp</div>
+                        <div class="card-icon">
+                            <img src="./images/star-plus-outline-24.png" alt="star">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/eye-plus-outline-24.png" alt="eye">
+                        </div>
+                        <div class="card-icon">
+                            <img src="./images/share-variant-outline-24.png" alt="share">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="main-right">
             <div class="announcements-main">
                 <h2>Announcements</h2>
@@ -159,28 +217,36 @@
                 <h2>Trending</h2>
                 <div class="trending-container">
                     <div class="user">
-                        <div class="user-icon">O</div>
+                        <div class="user-icon">
+                            <img src="./images/icons8-christmas-penguin-48.png" alt="morgan">
+                        </div>
                         <div class="user-info">
                             <p>@morgan</p>
                             <p>Super Cool Project</p>
                         </div>
                     </div>
                     <div class="user">
-                        <div class="user-icon">O</div>
+                        <div class="user-icon">
+                            <img src="./images/icons8-user-female-red-hair-48.png" alt="alex">
+                        </div>
                         <div class="user-info">
                             <p>@kendall</p>
                             <p>Life Changing App</p>
                         </div>
                     </div>
                     <div class="user">
-                        <div class="user-icon">O</div>
+                        <div class="user-icon">
+                            <img src="./images/icons8-corgi-48.png" alt="kendall">
+                        </div>
                         <div class="user-info">
                             <p>@alex</p>
                             <p>No Traffic Maker</p>
                         </div>
                     </div>
                     <div class="user">
-                        <div class="user-icon">O</div>
+                        <div class="user-icon">
+                            <img src="./images/icons8-old-woman-skin-type-7-48.png" alt="tegan">
+                        </div>
                         <div class="user-info">
                             <p>@tegan</p>
                             <p>World Peace Builder</p>
