@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    touch-action: manipulation;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
     grid-template-columns: min-content 1fr min-content auto;
     gap: 32px;
     align-items: center;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .header-top > #search-bar {
@@ -147,7 +148,6 @@ body {
 
 .main {
     padding: 32px 16px;
-    /* background-color: #e2e8f0; */
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 16px;
@@ -164,7 +164,7 @@ body {
 
 .cards-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
     gap: 16px;
     height: calc(100% - 40px);
 }
@@ -199,10 +199,7 @@ body {
 .main-right {
     display: grid;
     grid-template-columns: 1fr;
-}
-
-.announcements-main {
-    margin-bottom: 32px;
+    gap: 32px;
 }
 
 .announcements-main > h2 {
@@ -270,4 +267,3 @@ body {
 .card-icon > img:hover {
     opacity: 0.5;
 }
-
