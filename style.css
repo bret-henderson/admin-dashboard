@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-family: 'Roboto', sans-serif; */
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -44,7 +45,7 @@ body {
 }
 
 .icon-and-label > .label {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
@@ -120,21 +121,21 @@ body {
 }
 
 .header-bottom > .user-wrapper > .greeting > p:first-child {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 0.8rem;
     padding-bottom: 4px;
 }
 
 .header-bottom > .user-wrapper > .greeting > p:last-child {
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .header-bottom > button {
     padding: 8px 32px;
     min-width: min-content;
     font-size: 1rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     background-color: #1992d4;
     border: none;
