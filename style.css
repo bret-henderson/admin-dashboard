@@ -264,12 +264,15 @@ body {
 }
 
 img[alt='dashboard'],
-.user-icon {
+.user-icon > img {
     width: 48px;
     height: 48px;
 }
 
-.sub-links > .icon-and-label > img {
+.sub-links > .icon-and-label > img,
+.search-icon > img,
+.notification-icon > img, 
+.card-icon > img {
     width: 24px;
     height: 24px;
 }
