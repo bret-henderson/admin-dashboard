@@ -262,3 +262,8 @@ body {
 .card-icon > img:hover {
     opacity: 0.5;
 }
+
+img {
+    width: 24px;
+    height: 24px;
+}
